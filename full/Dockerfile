@@ -1,4 +1,4 @@
-FROM znc:slim
+FROM znc-base:slim
 
 # znc:slim removed them. Install them again.
 RUN set -x \
