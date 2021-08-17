@@ -1,4 +1,4 @@
-FROM jrokos/znc-base:slim
+FROM quay.io/jrokos/znc-base:slim
 
 # znc:slim removed them. Install them again.
 RUN set -x \
